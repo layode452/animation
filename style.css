@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation: test 4s linear infinite forwards;
+}
+
+@keyframes test{
+    0%{
+        transform: translate(-210px, 0);
+    }
+
+    100%{
+        transform: translate(1500px, 0);
+    }
+}
